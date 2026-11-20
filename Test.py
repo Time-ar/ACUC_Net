@@ -91,7 +91,7 @@ def evaluator(model, val_root, map_save_path, trainsize=384):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='PVTv2-b4')
-    parser.add_argument('--snap_path', type=str, default='./Checkpoints/YourModel/Net_epoch_best.pth',
+    parser.add_argument('--snap_path', type=str, default='./Checkpoints/YourModel/xxxx.pth',
                         help='train use gpu')
     parser.add_argument('--gpu_id', type=str, default='0',
                         help='train use gpu')
